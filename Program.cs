@@ -14,7 +14,6 @@ namespace _1_3
             P p = new P("дыра");
             Enttity enttity = new Enttity("существа");
 
-            Console.WriteLine("{0} {1} {2} {3} {4} {5} {6}", artyr.start(), artyr.name, artyr.next(), p.name, p.next2(), enttity.name, enttity.sushestva());
             string a = artyr.start() + artyr.name + artyr.next() + p.name + p.next2() + enttity.name + enttity.sushestva();
             Console.WriteLine(a);
 
